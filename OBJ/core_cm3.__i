@@ -1,7 +1,0 @@
---c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\STM32F10x_FWLIB\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE
--I D:\1研究生\栖息实验电机控制\test2\USER\RTE
--I D:\Users\30334\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1
--I D:\Keil_v5\ARM\CMSIS\Include
--I D:\Users\30334\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
--D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10x_HD -DUSE_STDPERIPH_DRIVER
--o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d "..\CORE\core_cm3.c"
