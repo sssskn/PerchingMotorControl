@@ -12,7 +12,7 @@
 // 定时器用于PWM输出
 #define MOTOR_TIM        TIM2
 #define MOTOR_TIM_CLK    RCC_APB1Periph_TIM2
-volatile uint32_t currentPulseCount = 0;
+//volatile uint32_t currentPulseCount = 0;
 
 /**
  * @brief  初始化电机控制引脚和PWM

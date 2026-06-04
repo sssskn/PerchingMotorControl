@@ -44,7 +44,7 @@
   * @param  None
   * @retval None
   */
-extern volatile uint32_t currentPulseCount;
+//extern volatile uint32_t currentPulseCount;
 void NMI_Handler(void)
 {
 }
@@ -156,12 +156,12 @@ void SysTick_Handler(void)
 /**
   * @}
   */ 
-void TIM2_IRQHandler(void) {
-    if (TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET) {
-        // 每发送一个脉冲，计数器加1
-        currentPulseCount++;
-        TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
-    }
-}
+//void TIM2_IRQHandler(void) {
+//    if (TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET) {
+//        // 每发送一个脉冲，计数器加1
+//        currentPulseCount++;
+//        TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
+//    }
+//}
 
 /******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/

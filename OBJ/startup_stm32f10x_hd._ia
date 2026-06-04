@@ -1,0 +1,7 @@
+--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork 
+-I D:\1研究生\栖息实验电机控制\test2\USER\RTE
+-I D:\Users\30334\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1
+-I D:\Keil_v5\ARM\CMSIS\Include
+-I D:\Users\30334\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"
+--list .\listings\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d "..\CORE\startup_stm32f10x_hd.s"

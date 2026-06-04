@@ -32,3 +32,8 @@
 ..\obj\main.o: ..\SYSTEM\sys\sys.h
 ..\obj\main.o: ..\HARDWARE\oled.h
 ..\obj\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\main.o: ..\HARDWARE\vk36n16i.h
+..\obj\main.o: ..\HARDWARE\motor.h
+..\obj\main.o: ..\HARDWARE\flash_storage.h
+..\obj\main.o: ..\HARDWARE\ui_display.h
+..\obj\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
